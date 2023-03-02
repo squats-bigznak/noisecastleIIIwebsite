@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 body{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-between;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin:0px 100px;
 }
 
 .header{
     display: flex;
     font-size: 18px;
     padding:20px;
+    background-color: #1F2937;
     justify-content: space-between;
   
 }
@@ -17,7 +22,8 @@ body{
 .header-logo{
     display: flex;
     justify-content: flex-start;
-    font-size: large;
+    font-size: 24px;
+    color: #F9FAF8;
     padding:20px;
 }
 
@@ -26,41 +32,48 @@ body{
     flex-direction: row; 
     justify-content: center;    
     font-size: 24px;
+    background-color: #1F2937;
     font-weight: bold;
+    color: #F9FAF8;
     padding:20px;
 }
 
 .topmost-left{
     display: flex;
-    width: 300px;
+    width: 500px;
     flex-direction: column; 
     justify-self: flex-start;
+    padding: 100px;
     
 }
 
 
 .tl1{
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bolder;  
-    width: 300px;  
+    color: #F9FAF8;
+    /* width: 300px;   */
 }
 
 .tl2{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;   
-    width: 300px;   
+    color:#E5E7EB;
+    /* width: 300px;    */
 }
 
 .tl3{
-    font-size: 24px;
+    font-size: 18px;
+    color:#E5E7EB;
     font-weight: lighter; 
-    width: 300px;  
+    /* width: 300px;   */
 }
 
 
 .topmost-right{
     justify-self: flex-end;
-
+    width: 500px;
+    padding: 100px;
 }
    
 
@@ -72,6 +85,9 @@ body{
 }
 
 .top-middle-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,32 +118,47 @@ body{
     flex-direction: column;
     font-size: large;
     padding:200px;
+    background-color: #E5E7EB;
+
 }
 
 .bmup{
     display:flex;
     justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
 
 }
 
 .bmdown{
     display:flex;
     justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .bottom{
     display:flex;
     justify-content: space-between;
     font-size: small;
-    padding:200px;
+    padding: 100px;
+    background-color: #3882F6;
+    margin: 200px;
+    border-radius: 40px;
+    
 }
 
 .bleft{
     display:flex;
     flex-direction: column;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-weight: lighter; 
 }
 
 .blup{
+    
 
 }
 
@@ -150,12 +181,22 @@ body{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    
     gap: 16 px;
+    font-size: 18px;
     
 }
 
 a{
     text-decoration: none;
     gap: 16 px;
+    color: #E5E7EB;
     padding: 16px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border: 2px solid #f3f2f6;
 }
